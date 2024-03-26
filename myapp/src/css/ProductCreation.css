@@ -1,0 +1,24 @@
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.add-product-form{
+    align-items: center;
+}
+input{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.btn.add-product{
+    background-color: azure;
+    
+}
+

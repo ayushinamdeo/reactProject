@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "email": "saiteja@persistent.com",
+      "firstname": "sai",
+      "lastname": "teja",
+      "password": "saiteja"
+    },
+    {
+      "id": 2,
+      "email": "namdeoayu123@gmail.com",
+      "firstname": "ayushi",
+      "lastname": "namdeo",
+      "password": "namdeoayu"
+    }
+  ]
+  
