@@ -1,0 +1,8 @@
+// write this command to run the product file
+  // npx json-server --watch products.json -- port 3001
+
+  for cart.json
+  npx json-server --watch cart.json -- port 3002
+
+  for wishlist.json
+   npx json-server --watch cart.json -- port 3003

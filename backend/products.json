@@ -1,5 +1,8 @@
+
 {
-  "users": [
+  
+  "users": [ 
+  
     {
       "id": "1",
       "name": "VitaminC Serum",
@@ -9,6 +12,7 @@
       "price": 400,
       "offerPrice": "350",
       "description": "Brightens and evens out skin tone"
+       
     },
     {
       "id": "2",
