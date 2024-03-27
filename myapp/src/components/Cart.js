@@ -20,8 +20,13 @@ const AddtoCart = () => {
 
   //remove from  cart
 
-  const handleRemove = (product) => {
-    axios.delete(`http://localhost:3002/cart/${product.id}`);
+  const handleRemove = (cartProduct) => {
+    axios.delete(`http://localhost:3002/cart/${cartProduct.id}`);
+    const newcartProducts = cartProducts.filter(
+      (product) => product.id !== cartProduct.id
+    );
+    setCartProducts([...newcartProducts]);
+
   };
 
   const handleSubmit = (e) => {
@@ -38,7 +43,7 @@ const AddtoCart = () => {
           <p>Description: {product.Description}</p>
           <p>Quantity: {product.quantity}</p>
           <p>Price: {product.price}</p>
-          <p>Offer Price: {product.offerPrice}</p>
+          <p>Offer Price: {product.offerPrice}</p> 
 
           <div className="btn-container">
             <button onClick={() => handleRemove(product)}>Remove</button>

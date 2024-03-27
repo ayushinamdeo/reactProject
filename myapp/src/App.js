@@ -19,12 +19,16 @@ function App() {
         <Routes>
           <Route path="/" element={<Login></Login>}></Route>
           {<Route path="/signup" element={<Signup></Signup>}></Route>}
-          {/*protected Routed*/}
-          {/* <Route path="/" element={<ProtectedRoutes />}> */}
+          protected Routed
+          <Route path="/" element={<ProtectedRoutes />}>
+           
+
           {<Route path="/Home" element={<Home></Home>}></Route>}
+       
 
           {<Route path="/Cart" element={<Cart></Cart>}></Route>}
           <Route path="/WishList" element={<WishList></WishList>}></Route>
+          </Route>
 
           {
             <Route

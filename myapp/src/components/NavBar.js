@@ -2,10 +2,23 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link, Router } from "react-router-dom";
+import { Link, Router} from "react-router-dom";
 import cart from "../components/images/cart.jpg";
+import {useHistory} from "react-router-dom";
+
+
+// const history = useHistory();
+
+
 
 export default function NavBar(props) {
+
+  // const handleLogout =()=>{
+  //   localStorage.clear();
+  //   history.push('/')
+  
+  // };
+ 
   return (
     <div>
       <Navbar bg="light" data-bs-theme="light">
@@ -36,9 +49,12 @@ export default function NavBar(props) {
                 {localStorage.getItem("cartLength")}
               </div>
               <img src={cart} alt="cart" className="cart" />
+              {/* //LOGOUT BUTTON */}
+              {/* <button onClick={handleLogout}Logout></button> */}
             </Nav.Link>
+
           </Nav>
-        </Container>
+        </Container> 
       </Navbar>
     </div>
   );

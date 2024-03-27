@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
+
 function ProductDetailPage(props) {
   const [isProductSelected, setIsProductSelected] = useState(false);
   const [isWishlistSelected, setIsWishlistSelected] = useState(false);
+ 
 
   const navigate = useNavigate();
   if (!props.product) {
@@ -54,6 +56,9 @@ function ProductDetailPage(props) {
       {console.log(props.product)}
       <div className="product">
         {console.log(props.product.imgdata)}
+
+       
+       
         <img
           onClick={() => handleProductClick(props.product.id)}
           src={props.product.imgdata}
@@ -71,9 +76,13 @@ function ProductDetailPage(props) {
           <button disabled={isWishlistSelected} onClick={handleWishlist}>
             Wishlist
           </button>
+          
         </div>
       </div>
+      
     </div>
+    
+   
   );
 }
 export default ProductDetailPage;

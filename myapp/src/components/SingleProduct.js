@@ -21,10 +21,10 @@ const SingleProduct = () => {
         {console.log(props.product.imgdata)}
         <img src={props.product.imgdata} alt={props.product.name} />
         <h5>Product Name: {props.product.name}</h5>
-        <p>Description: {props.product.Description}</p>
-        <p>Quantity: {props.product.quantity}</p>
-        <p>Price: {props.product.price}</p>
-        <p>Offer Price: {props.product.offerPrice}</p>
+        <p>description: {props.product.description}</p>
+        <p>quantity: {props.product.quantity}</p>
+        <p>price: {props.product.price}</p>
+        <p>offerPrice: {props.product.offerPrice}</p>
         <div className="btn-container">
           <button onClick={handleSubmit}>Add To Cart</button>
           <button onClick={handleWishlist}>Wishlist</button>
