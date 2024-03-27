@@ -2,16 +2,13 @@ import React, { useState, useEffect } from "react";
 import ProductDetailPage from "./ProductDetails";
 import NavBar from "./NavBar"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ReactPaginate from "react-paginate";
+
 
 function HomePage() {
   
 
   const [products, setProducts] = useState([]);
-  // const [cart, setCart] = useState([]);
-  //  const [pageNumber , setPageNumber] = useState(0);
-  // const perPage = 6;
-  // const perVisit = pageNumber*perPage;
+ 
 
   useEffect(() => {
     fetch('http://localhost:3001/users')
@@ -42,9 +39,7 @@ function HomePage() {
           </>
         ))}
       </div>
-      <ReactPaginate 
-    previousLabel={'Prev'}
-    nextLabel={'Next'}/>
+     
       
     </div>
   );
