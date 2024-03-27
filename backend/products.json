@@ -4,49 +4,49 @@
       "id": "1",
       "name": "VitaminC Serum",
       "imgdata": "https://foxtale.in/cdn/shop/files/PDP-FirstImage-14_ed032291-177e-4d1e-83cd-38d3434fbcac.jpg?v=1706529843&width=800",
-      "quantity": "5",
-      "catergory": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+      "quantity": "1",
+      "catergory": "Serum",
       "price": 400,
       "offerPrice": "350",
-      "description": "VitaminC Serum"
+      "description": "Brightens and evens out skin tone"
     },
     {
       "id": "2",
       "name": "Snails Serum",
       "imgdata": "https://tse4.mm.bing.net/th/id/OIP.K5NcSdhEic0xJ3z-lN0eOgAAAA?rs=1&pid=ImgDetMain",
-      "quantity": "5",
-      "catergory": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+      "quantity": "1",
+      "catergory": "Serum",
       "price": 1500,
       "offerPrice": "1399",
-      "description": "Snails Korean Product"
+      "description": "Snail Mucin 96% Power Repairing Essence 3.38 Fl.Oz 100Ml, Hydrating"
     },
     {
       " id": 3,
       "name": "Night Glow Serum",
       "imgdata": "https://tse3.mm.bing.net/th/id/OIP.HZAjkkL5zFzZZASwaffh2gHaHh?w=207&h=209&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      "quantity": "5",
-      "catergory": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+      "quantity": "1",
+      "catergory": "Serum",
       "price": 400,
       "offerPrice": "350",
-      "description": "Over Night Glow Serum",
+      "description": "Transform Your Skin with the Benefits of an Overnight Glow Mask",
       "id": "13bc"
     },
     {
       "id": "4",
       "name": "Sunscreen",
       "imgdata": "https://www.bing.com/th?id=OIP.g5SxL0qJ1zP-VbVvdoxqcAHaHa&w=189&h=185&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
-      "quantity": "5",
-      "catergory": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+      "quantity": "1",
+      "catergory": "Sunscreen",
       "price": 500,
       "offerPrice": "399",
-      "description": "SPF 70 Suncreen"
+      "description": "Provides protection from UV rays and enhances overall complexion"
     },
     {
       "id": "5",
       "name": "Niacinamide Serum",
       "imgdata": "https://th.bing.com/th/id/R.5a21d051d7f2c46aa361de9b5e08fffb?rik=8V2uYoqUrVYclg&riu=http%3a%2f%2ffoxtale.in%2fcdn%2fshop%2ffiles%2fTheGamechangerPDP-13-13_1200x1200.jpg%3fv%3d1699600094&ehk=cTU41ML7FumCUVD1VSJI7dTkedLvPXXuzmQ4RuLej70%3d&risl=&pid=ImgRaw&r=0",
-      "quantity": "5",
-      "catergory": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+      "quantity": "1",
+      "catergory": "Serum",
       "price": 400,
       "offerPrice": "350",
       "description": "Niacinamide Serum Radiant Skin for 8+ hours"
@@ -55,7 +55,7 @@
       "id": "6",
       "name": "Retina Oil Serum",
       "imgdata": "https://foxtale.in/cdn/shop/files/PDP-FirstImage-15.jpg?v=1706529763&width=700",
-      "quantity": "5",
+      "quantity": "1",
       "price": 400,
       "offerPrice": "350",
       "description": "Foxtale Retinol Serum-Anti Aging Retional Serum"
@@ -64,8 +64,8 @@
       "id": "7",
       "name": "Plum Vitamin C Serum",
       "imgdata": "https://plumgoodness.com/cdn/shop/files/01-WBG_69fdff1a-440e-4af0-a76f-dcdf1c411359.jpg?v=1709029322&width=900",
-      "quantity": "5",
-      "catergory": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+      "quantity": "1",
+      "catergory": "Serum",
       "price": 600,
       "offerPrice": "350",
       "description": "Plum Vitamin C Face Serum with Mandrine"
@@ -74,11 +74,51 @@
       "id": "8",
       "name": "Loreal Vitamino Shampoo",
       "imgdata": "https://static.chemistwarehouse.com.au/ams/media/pi/87296/2DF_800.jpg",
-      "quantity": "5",
-      "catergory": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
+      "quantity": "1",
+      "catergory": "Shampoo",
       "price": 700,
       "offerPrice": "350",
       "description": "L'Oreal Professional Vitamino Color Shampoo"
+    },
+    {
+      "id": 9,
+      "name": "Super Glow Moisturizer",
+      "imgdata": "https://foxtale.in/cdn/shop/files/SuperGlowMoisturizer-19_3.jpg?v=1706530044&width=700",
+      "quantity": "1",
+      "catergory": "Foxtale Skin Moisturizer",
+      "price": "799",
+      "offerPrice": "599",
+      "description": "Gives luminous glowing skin from the first use itself"
+    },
+    {
+      "id": 10,
+      "name": "Hydrating Moisturizer with Ceramide",
+      "imgdata": "https://foxtale.in/cdn/shop/files/PDP-FirstImage-09.jpg?v=1706529195&width=700",
+      "quantity": "1",
+      "catergory": "Foxtale Hydrating Moisturizer",
+      "price": "799",
+      "offerPrice": "599",
+      "description": "For hydration all-day long"
+    },
+    {
+      "id": 11,
+      "name": "SPF 70 Matte Finish Sunscreen",
+      "imgdata": "https://foxtale.in/cdn/shop/files/PDP-FirstImage-03.jpg?v=1706529324&width=700",
+      "quantity": "1",
+      "catergory": "Foxtale Sunscreen",
+      "price": "799",
+      "offerPrice": "599",
+      "description": "Provides UV protection and brightens skin"
+    },
+    {
+      "id": 12,
+      "name": "SPF 70 Dewy Finish Sunscreen",
+      "imgdata": "https://foxtale.in/cdn/shop/files/Product1stImage-04.jpg?v=1706528848&width=700",
+      "quantity": "1",
+      "catergory": "Foxtale Sunscreen",
+      "price": "799",
+      "offerPrice": "599",
+      "description": "Provides protection from UV rays and enhances overall complexion"
     }
   ]
 }
