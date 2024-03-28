@@ -1,14 +1,14 @@
 {
   "cart": [
     {
-      "id": "1",
-      "name": "VitaminC Serum",
-      "imgdata": "https://foxtale.in/cdn/shop/files/PDP-FirstImage-14_ed032291-177e-4d1e-83cd-38d3434fbcac.jpg?v=1706529843&width=800",
-      "quantity": "5",
-      "catergory": "https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp",
-      "price": 400,
-      "offerPrice": "350",
-      "description": "VitaminC Serum"
+      "id": 12,
+      "name": "SPF 70 Dewy Finish Sunscreen",
+      "imgdata": "https://foxtale.in/cdn/shop/files/Product1stImage-04.jpg?v=1706528848&width=700",
+      "quantity": "1",
+      "catergory": "Foxtale Sunscreen",
+      "price": "799",
+      "offerPrice": "599",
+      "description": "Provides protection from UV rays and enhances overall complexion"
     }
   ]
 }
