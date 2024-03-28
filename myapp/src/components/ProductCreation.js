@@ -69,13 +69,13 @@ function App() {
     const [products, setProducts] = useState([]);
    
     useEffect(() => {
-      fetch('http://localhost:3001/users')
+      fetch('http://localhost:3001/products')
         .then(response => response.json())
         .then(data => setProducts(data));
     }, []);
     const addProduct = (newProduct) => {
         console.log("hello");
-      fetch('http://localhost:3001/users', {
+      fetch('http://localhost:3001/products', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -11,7 +11,7 @@ function HomePage() {
  
 
   useEffect(() => {
-    fetch('http://localhost:3001/users')
+    fetch('http://localhost:3001/products')
       .then(response => response.json())
       .then(data => setProducts(data));
       
